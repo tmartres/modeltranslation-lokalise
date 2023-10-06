@@ -5,9 +5,9 @@ from modeltranslation.utils import get_translation_fields
 
 from .models import LokaliseTranslation
 
-CREATE_KEYS_URL = 'https://api.lokalise.co/api2/projects/{project_id}/keys'
-UPDATE_KEYS_URL = 'https://api.lokalise.co/api2/projects/{project_id}/keys'
-DELETE_KEYS_URL = 'https://api.lokalise.co/api2/projects/{project_id}/keys'
+CREATE_KEYS_URL = 'https://api.lokalise.com/api2/projects/{project_id}/keys'
+UPDATE_KEYS_URL = 'https://api.lokalise.com/api2/projects/{project_id}/keys'
+DELETE_KEYS_URL = 'https://api.lokalise.com/api2/projects/{project_id}/keys'
 AUTH_HEADER_NAME = 'x-api-token'
 
 
